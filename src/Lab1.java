@@ -19,9 +19,9 @@ public class Lab1 {
         Scanner scanner = new Scanner(System.in);
         int inputNum = scanner.nextInt();
         if (inputNum % 2 == 0) {
-            System.out.println(inputNum + " is even");
+            System.out.println(inputNum + " is even number");
         } else {
-            System.out.println(inputNum + " is odd");
+            System.out.println(inputNum + " is odd number");
         }
     }
 }
