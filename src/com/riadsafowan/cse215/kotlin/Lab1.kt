@@ -1,5 +1,6 @@
 package com.riadsafowan.cse215.kotlin
 
+import com.riadsafowan.cse215.Utils
 import java.util.*
 
 fun main() {
@@ -10,19 +11,22 @@ fun main() {
                 "Age: 21\n" +
                 "Department: ECE"
     )
+    Utils.drawHorizontalLine()
 
     //2. Write a program that prints from 1 to 10.
     for (i in 1..10) {
         println(i)
     }
+    Utils.drawHorizontalLine()
 
     //3. Write a program that determines if an integer is odd or even.
-    println("Enter a number: ")
+    print("Enter a number: ")
     val scanner = Scanner(System.`in`)
     val inputNum = scanner.nextInt()
     if (inputNum % 2 == 0) {
-        println("$inputNum is an even number")
+        println("$inputNum is an even number.")
     } else {
-        println("$inputNum is an odd number")
+        println("$inputNum is an odd number.")
     }
 }
+
