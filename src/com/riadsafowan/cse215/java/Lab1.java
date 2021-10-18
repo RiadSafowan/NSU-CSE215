@@ -1,3 +1,4 @@
+package com.riadsafowan.cse215.java;
 
 import java.util.Scanner;
 
