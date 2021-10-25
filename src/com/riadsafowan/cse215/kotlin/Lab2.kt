@@ -10,8 +10,8 @@ fun main() {
     val inputNum = scanner.nextInt()
 
     when (inputNum % 2) {
-        1 -> println("$inputNum is an odd number.")
         0 -> println("$inputNum is an even number.")
+        1 -> println("$inputNum is an odd number.")
     }
 
 //  2. Write a program that takes an integer and determines if it’s prime or not. A number is prime if it is divisible by 1 and itself only, i.e. 2, 3, 11, 37 etc.
@@ -26,7 +26,6 @@ fun main() {
 //  3. Write a program that prints the multiplication table from 1 to 5.
     for (i in 1..5) {
         for (j in 1..10) {
-            println(i.toString() + "x" + j + " = " + i * j)
             println("${i}x$j = ${i * j}")
         }
         println()
