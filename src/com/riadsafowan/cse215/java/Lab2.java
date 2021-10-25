@@ -45,6 +45,6 @@ public class Lab2 {
                 System.out.print(i + ", ");
             }
         }
-//testfsdaf dfgdfg
+//testfsdaf dfgdfg 3
     }
 }
