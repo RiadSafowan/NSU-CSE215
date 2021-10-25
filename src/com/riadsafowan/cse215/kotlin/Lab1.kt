@@ -23,6 +23,7 @@ fun main() {
     print("Enter a number: ")
     val scanner = Scanner(System.`in`)
     val inputNum = scanner.nextInt()
+
     if (inputNum % 2 == 0) {
         println("$inputNum is an even number.")
     } else {
