@@ -1,8 +1,10 @@
 package com.riadsafowan.cse215.kotlin
 
 fun main() {
+
 //  1. Generate a random integer n between 5 and 20 (inclusive). Use for loop to print all integers from 0 to n separated by a space.
 //     To generate a random integer between min and max range:
+
     val n = (5 + Math.random() * (20 - 5 + 1)).toInt()
     println("Random integer: $n")
 
@@ -17,6 +19,7 @@ fun main() {
 //         123
 //         12
 //         1
+
     for (i in 5 downTo 1) {
         for (j in 1..i) {
             print("$j ")
@@ -26,6 +29,7 @@ fun main() {
     println()
 
 //  3. Write a program which will use while loop to print all the integers between 100 and 150 which are divisible by 8 in descending order.
+
     print("Output: ")
     var num = 150
     while (num >= 100) {
@@ -37,8 +41,8 @@ fun main() {
     println("\n")
 
 //  4. Generate a random int between 1990 and 2020. Then print it check if it’s a leap year or not.
-    val year = (1990 + Math.random() * (2000 - 1990 + 1)).toInt()
 
+    val year = (1990 + Math.random() * (2000 - 1990 + 1)).toInt()
     if (year % 400 == 0 || year % 4 == 0 && year % 100 != 0) {
         println("$year: True")
     } else {
@@ -47,7 +51,6 @@ fun main() {
     println()
 
 //  5. Print the following pattern:
-
 //        *
 //        +++
 //        *****
