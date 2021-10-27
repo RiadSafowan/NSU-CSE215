@@ -1,6 +1,6 @@
 package com.riadsafowan.cse215.kotlin
 
-fun main(){
+fun main() {
 //  1. Generate a random integer n between 5 and 20 (inclusive). Use for loop to print all integers from 0 to n separated by a space.
 //     To generate a random integer between min and max range:
     val n = (5 + Math.random() * (20 - 5 + 1)).toInt()
@@ -47,6 +47,13 @@ fun main(){
     println()
 
 //  5. Print the following pattern:
+
+//        *
+//        +++
+//        *****
+//        +++++++
+//        *********
+
     for (i in 1..5) {
         if (i % 2 == 1) {
             for (j in 1 until i * 2) {

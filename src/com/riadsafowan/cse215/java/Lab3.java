@@ -14,6 +14,7 @@ public class Lab3 {
         System.out.println("\n");
 
 //    2. Print the following
+
 //         12345
 //         1234
 //         123
@@ -50,6 +51,13 @@ public class Lab3 {
         System.out.println();
 
 //  5. Print the following pattern:
+
+//        *
+//        +++
+//        *****
+//        +++++++
+//        *********
+
         for (int i = 1; i <= 5; i++) {
             if (i % 2 == 1) {
                 for (int j = 1; j < i * 2; j++) {
