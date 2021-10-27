@@ -32,7 +32,7 @@ fun main() {
         if (num % 8 == 0) {
             print("$num, ")
         }
-        num++
+        num--
     }
     println("\n")
 
